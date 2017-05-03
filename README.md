@@ -7,7 +7,7 @@ https://code.facebook.com/pages/876921332402685/open-source-code-of-conduct
 どのような行為が許可されるのかは、以下に記載する。
 
 ## Open Development
-作業はすべてGithub上で行われる。  
+作業はすべてGithub上で行われる。  
 コアチームと外部貢献メンバーの両方が、同じプロセスを経てPRが送られる。
 
 ## Branch Organization
@@ -18,7 +18,7 @@ latest stable varsionにしておくことがおすすめ。
 
 ## Semantic versioning
 
-ReactではSemantic versioningを採用している。
+ReactではSemantic versioningを採用している。  
 全てのPRにはタグをつけている。
 
 ## Bugs
@@ -67,7 +67,7 @@ APIの変更についてはFBでの社内利用のための修正が必要な場
 
 ### CLA(Contributor License Agreement)
 
-PRを受け入れるためには、CLAに提出してもらうことが必要となる。
+PRを受け入れるためには、CLAに提出してもらうことが必要となる。  
 CLAの提出は、一度行えばいい。  
 なので他のオープンソース（FBの)に参加している場合は不要となる。
 
@@ -95,7 +95,7 @@ npm packagesはbuild/packagesに格納される。
 変更を試す簡単な方法は `npm run build` して、 `fixtures/packaging/babel-standaline/dev.html` を開くこと。  
 このファイルは、ビルドフォルダにあるreactを使用しているため変更内容が反映されている。
 
-もし、既存のReactプロジェクトに変更したreactを取り入れたいのなら、 `build/dist/react.development.js`, `build/dist/react-dom.development.js` あるいは他のビルドしたものをstable-versionの代わりに使用する。  
+もし、既存のReactプロジェクトに変更したreactを取り入れたいのなら、 `build/dist/react.development.js`, `build/dist/react-dom.development.js` あるいは他のビルドしたものをstable-versionの代わりに使用する。  
 npmからReactを落として使う場合は、react, react-domを削除して、 `npm link`とつかってローカルのbuildフォルダーにsymlinkを貼る。
 
 ```sh
@@ -112,7 +112,7 @@ PRには、機能的な追加がある場合はユニットテストが必要。
 
 ## StyleGuide
 
-コードにスタイリングの問題がないかは、`npm run lint`をしてコードを精査できる。
+コードにスタイリングの問題がないかは、`npm run lint`をしてコードを精査できる。  
 しかし、一部のスタイリングについては問題を収集することができない。  
 なので、Airbnb's Style Guideをみてそれに合わせて欲しい。
 
