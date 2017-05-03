@@ -1,7 +1,7 @@
 # コントリビュートの方法
 
 ## 行動規定
-フルテキストはこちら（FacebookにおけるOSSの貢献方法）
+フルテキストはこちら（FacebookにおけるOSSの貢献方法）  
 https://code.facebook.com/pages/876921332402685/open-source-code-of-conduct
 
 どのような行為が許可されるのかは、以下に記載する。
